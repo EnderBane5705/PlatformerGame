@@ -1,4 +1,4 @@
-package src.Game;
+package src;
 
 import java.util.*;
 
