@@ -1,4 +1,4 @@
-package util.Vec;
+package util;
 
 public class Vec {
 	

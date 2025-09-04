@@ -1,4 +1,4 @@
-package util.Entity;
+package util;
 
 public class Entity {
 	

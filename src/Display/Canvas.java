@@ -1,4 +1,4 @@
-package src.Display.Canvas.java;
+package src.Display;
 
 import java.swing.*;
 import java.util.*;
