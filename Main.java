@@ -9,17 +9,19 @@ import src.Display.Canvas.java;
 public class Main extends JFrame {
 	
 	public Main() { //initialize window
-		Canvas canvas = new Canvas(); //initialize game screen
+		int sizeX = 1000;
+		int sizeY = 800;
+		Canvas canvas = new Canvas(sizeX, sizeY); //initialize game screen
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		add(canvas);
-		setSize(1000, 800);
+		setSize(sizeX, sizeY);
 		setResizable(false);
 		setFocusable(true);
 		setFocusTraversalKeysEnabled(true);
 		
 		//add key listener here
 		
-		new Game(); //initialize game loop
+		new Game(canvas); //initialize game loop
 	}
 	
 	public static void main(String[] args) {
